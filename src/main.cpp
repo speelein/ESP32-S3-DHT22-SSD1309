@@ -172,6 +172,10 @@ delay(2000);
   digitalWrite(37, HIGH);
   digitalWrite(38, HIGH);
 delay(2000);
+  digitalWrite(36, LOW);
+  digitalWrite(37, LOW);
+  digitalWrite(38, LOW);
+delay(2000);
 
   u8g2.clearBuffer();					// clear the internal memory
   u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
